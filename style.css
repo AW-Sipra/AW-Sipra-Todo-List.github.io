@@ -1,0 +1,113 @@
+* {
+    scrollbar-width: auto;
+    scrollbar-color: #999999 #ffffff;
+  }
+*::-webkit-scrollbar {
+    width: 16px;
+  }
+*::-webkit-scrollbar-track {
+    background: #ffffff;
+  }
+*::-webkit-scrollbar-thumb {
+    background-color: #999999;
+    border-radius: 10px;
+    border: 3px solid #ffffff;
+  }
+body {
+    margin: 0;
+    width: 100vw;
+}
+#cover {
+    width: 100vw;
+}
+#cover img {
+    width: 100vw;
+    height: auto;
+}   
+.text-style {
+    position: absolute;
+    z-index: 1;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+.text-style-tasks {
+    color:hsl(235, 19%, 35%);
+}
+#cover p {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+    margin-left: 36%;
+    margin-top: 6%;
+}
+#cover input {
+    margin-left: 36%;
+    margin-top: 11%;
+    width: 31rem;
+    height: 4rem;
+    padding-left: 2rem;
+    border-radius: 0.4rem;
+    border: 0;
+    background-color: white;
+}
+#cover button {
+    z-index: 2;
+    height: 4.1rem;
+    width: 4.1rem;
+    top: 21.55%;
+    left: 60.7%;
+    background-color: rgb(139, 0, 139);
+    color: white;
+    border: 0;
+    border-radius: 0 0.4rem 0.4rem 0;
+}
+#cover button:hover {
+    box-shadow: 0px 0px 5px 1px grey;
+    cursor: pointer;
+}
+#tasks {
+    position: absolute;
+    z-index: 1;
+    top: 31%;
+    width: 33rem;
+    height: 50vh;
+    background-color: white;
+    left: 36%;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 50px 1px hsl(233, 11%, 84%);
+    padding: 0;
+    min-height: 50vh;
+    overflow: auto;
+}
+.fa-check {
+    padding-right: 2rem;
+}
+.fa-check:hover {
+    text-shadow: 0 0 20px rgb(54, 54, 54);
+}
+.fa-xmark {
+    padding-left: 2rem;
+}
+.fa-xmark:hover {
+    text-shadow: 0 0 20px rgb(54, 54, 54);
+}
+#tasks ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+    width: 100%;
+    border-radius: inherit;
+}
+#tasks ul li {
+    padding: 1rem 1rem 1rem 1rem;
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+    cursor: pointer;
+    background-color: rgb(235, 235, 235);
+}
+#tasks ul li:hover{
+    background-color: hsl(231, 7%, 80%);
+    border-radius: inherit;
+}
+
